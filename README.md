@@ -9,3 +9,5 @@ cmake --build build --target net4 --config Release
 If it doesn't work then ¯\_(ツ)_/¯   _
 
 Maybe you need to link the Love2D libraries with it on compilation (I really don't remember, I wrote this library a year ago and I am not used to compiling projects with so many dependencies). Anyway if you look at how libraries for Love2D are compiled on its mega source then that should help you.
+
+To be honest, after I learnt about the FFI library for LuaJIT I really wish I wrote this library in lua rather than a cpp compiled linked library.
