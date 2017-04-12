@@ -3,9 +3,10 @@
 
 Compilation:
 ```
-cmake -G "Visual Studio 14" -H. -Bbuild -DCMAKE_GENERATOR_PLATFORM=x64
+cmake -G "Visual Studio 12" -H. -Bbuild -DCMAKE_GENERATOR_PLATFORM=x64
 cmake --build build --target net4 --config Release
 ```
+(or Visual Studio 14 if you have VS15 compiler)
 
 If it doesn't work then ¯\_(ツ)_/¯   _
 
