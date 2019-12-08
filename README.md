@@ -8,7 +8,7 @@ cmake --build build --target net4 --config Release
 ```
 (or Visual Studio 14 if you have VS15 compiler)
 
-If it doesn't work then ¯\\_(ツ)_/¯
+If it doesn't work then `¯\_(ツ)_/¯`
 
 Maybe you need to link the Love2D libraries with it on compilation (I really don't remember, I wrote this library a year ago and I am not used to compiling projects with so many dependencies). Anyway if you look at how libraries for Love2D are compiled on its mega source then that should help you.
 
